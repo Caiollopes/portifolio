@@ -5,4 +5,4 @@
 
 # :rocket: Sobre
 
-Meu portifólio nele você saberá uum pouco de mim, minha formações e alguns trabalhos que desenvolvi.
+Meu portifólio nele você saberá um pouco de mim, minhas formações e alguns trabalhos que desenvolvi.
