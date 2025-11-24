@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Variaveis */
+
+:root {
+  --main-color: #6a994e;
+  --text-color: #fff;
+  --bg-color: #111;
+  --border-color: #ffffff15;
+
+  --h1-font: 5rem;
+  --h2-font: 2.5rem;
+  --p-font: 1.1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: var(--h2-font);
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* Corpo */
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Cabecalho */
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 38px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  transition: all 0.7s;
+}
+/* Scroll */
+
+::-webkit-scrollbar-track {
+  background-color: var(--text-sec-color);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 50px;
+}
+
+.box-f:hover,
+.box-h:hover {
+  border: 1px solid var(--main-color);
+  border-radius: 1rem;
+  transition: ease-in 0.3s;
+
+  & i {
+    color: var(--main-color);
+    transition: ease-in 0.3s;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 1050px) {
+  .home-img {
+    display: none;
+  }
+
+  .home {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .work-title p,
+  .about-title p {
+    padding: 0;
+  }
+
+  .end-content {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 30px 8% 30px;
+  }
+
+  header {
+    padding: 38px 8%;
+  }
+}
+
+@media (max-width: 900px) {
+  #menu-icon {
+    display: block;
+  }
+
+  :root {
+    --h1-font: 3.8rem;
+    --h2-font: 2.5rem;
+    --p-font: 14px;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 90%;
+    right: 100%;
+    width: 270px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #25262d;
+    padding: 20px 10px;
+    gap: 0.6rem;
+    text-align: left;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .navbar.open {
+    right: 0;
+  }
+
+  .about-content {
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  }
+}
+
+@media (max-width: 530px) {
+  .button a.btn2 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  :root {
+    --h1-font: 2.5rem;
+    --h2-font: 2.2rem;
+    --p-font: 14px;
+  }
+
+  .social i {
+    height: 40px;
+    width: 40px;
+  }
+
+  .logo2 {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -23,6 +23,7 @@
   "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
   "prettier.semi": false,
+  "prettier.printWidth": 120,
 
   // terminal
   "terminal.integrated.fontSize": 16,

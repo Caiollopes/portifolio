@@ -1,0 +1,33 @@
+/* Sobre mim */
+
+.text-up {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.rocketseat {
+  color: #9b30f9;
+  font-weight: 600;
+}
+
+.work-title p,
+.about-title p {
+  font-size: var(--p-font);
+  font-weight: 200;
+  line-height: 32px;
+  /* text-indent: 20px; */
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.about-img {
+  text-align: center;
+
+  & img {
+    width: 20em;
+  }
+}
