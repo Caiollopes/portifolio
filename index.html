@@ -8,7 +8,6 @@
     <script src="./js/script.js" defer></script>
     <!--- Icones --->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" />
     <!--- Fontes --->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,21 +20,7 @@
   </head>
 
   <body>
-    <!--- Header --->
-    <header>
-      <a href="#">
-        <img class="logo2" src="./img/lp.svg" alt="" />
-      </a>
-      <!-- <ul class="navbar">
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#about">Sobre mim</a></li>
-        <li><a href="#formation">Formação</a></li>
-        <li><a href="#work">Projetos</a></li>
-      </ul> -->
-      <!-- <div class="bx bx-menu" id="menu-icon">
-        <i class="ri-menu-line"></i>
-      </div> -->
-    </header>
+    <img class="logo" src="./img/lp.svg" alt="" />
 
     <!--- Inicio --->
     <section class="home" id="home">
@@ -67,17 +52,19 @@
     </section>
 
     <!--- Sobre --->
-    <section class="about" id="about">
+    <section>
       <div class="about-title">
-        <h2>Sobre mim</h2>
+        <h2>Sobre <span class="text-up">mim</span></h2>
         <div class="about-grid">
           <div>
             <p>
               Olá! Me chamo Caio, Desevolvedor Front-End & Designer, formado em
-              <span class="text-up">
-                Análise e Desenvolvimento de Sistemas (UNICID) e Sistemas para internet (FIAP).
-              </span>
-              Essa jornada da faculdade para mim foi muito gratificante, consegui superar muitos desafios, tanto
+              <span class="text-up"
+                >Análise e Desenvolvimento de Sistemas (UNICID) e Sistemas para internet (FIAP).</span
+              ><br />
+            </p>
+            <p>
+              Minha jornada da faculdade para mim foi muito gratificante, consegui superar muitos desafios, tanto
               pessoais quanto no meu desenvolvimento e aprendizado. Ao final do curso tive a honra de apresentar o
               <span class="text-up">Startup One</span>, um evento onde eu e meu grupo apresentamos nosso projeto
               desenvolvido durante o curso, para disputar e entrar nas 100 melhores startups da FIAP em 2023. Como
@@ -89,9 +76,9 @@
               <a href="https://www.origamid.com/" class="rocketseat" target="_blank">Rocketseat</a>
             </p>
           </div>
-          <section class="formation" id="formation">
+          <!--- Formação --->
+          <div class="formation" id="formation">
             <div class="formation-title">
-              <!-- <h2>Minhas <span class="text-up">formações</span></h2> -->
               <div class="formation-content">
                 <div class="box-f">
                   <div>
@@ -126,9 +113,20 @@
                   <p>Sistemas para Internet</p>
                   <p>2022 - 2023</p>
                 </div>
+                <div class="box-f">
+                  <div>
+                    <i class="ri-rocket-2-line"></i>
+                  </div>
+                  <div class="formation-verif">
+                    <h3>Rocketseat</h3>
+                    <i class="ri-verified-badge-fill"></i>
+                  </div>
+                  <p>FullStack</p>
+                  <p>Cursando</p>
+                </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
     </section>
@@ -188,10 +186,8 @@
       </div>
     </section>
 
-    <!--- Formação --->
-
     <!--- Projetos --->
-    <section class="work" id="work">
+    <section>
       <div class="work-title">
         <h2>Meus <span class="text-up">Projetos</span></h2>
       </div>
@@ -221,11 +217,111 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <img src="./img/gocolors.png" />
+          <div>
+            <div class="row-text">
+              <div class="tecnologia">
+                <p>Tecnologias utilizadas:</p>
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <h4>GOCOLORS - COR RGB</h4>
+              <p class="p-projeto">Copie a cor RGB de sua escolha e cole onde desejar.</p>
+            </div>
+            <div class="button-work">
+              <a href="https://github.com/Caiollopes/gocolors-hex" target="_blank" class="visu-work">
+                <i class="ri-github-line"></i>
+                Código
+              </a>
+              <a href="https://gocolors-hex.vercel.app/" target="_blank" class="visu-work">
+                <i class="ri-link"></i>
+                Ver Projeto
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <img src="./img/gocolors.png" />
+          <div>
+            <div class="row-text">
+              <div class="tecnologia">
+                <p>Tecnologias utilizadas:</p>
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <h4>GOCOLORS - COR RGB</h4>
+              <p class="p-projeto">Copie a cor RGB de sua escolha e cole onde desejar.</p>
+            </div>
+            <div class="button-work">
+              <a href="https://github.com/Caiollopes/gocolors-hex" target="_blank" class="visu-work">
+                <i class="ri-github-line"></i>
+                Código
+              </a>
+              <a href="https://gocolors-hex.vercel.app/" target="_blank" class="visu-work">
+                <i class="ri-link"></i>
+                Ver Projeto
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <img src="./img/gocolors.png" />
+          <div>
+            <div class="row-text">
+              <div class="tecnologia">
+                <p>Tecnologias utilizadas:</p>
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <h4>GOCOLORS - COR RGB</h4>
+              <p class="p-projeto">Copie a cor RGB de sua escolha e cole onde desejar.</p>
+            </div>
+            <div class="button-work">
+              <a href="https://github.com/Caiollopes/gocolors-hex" target="_blank" class="visu-work">
+                <i class="ri-github-line"></i>
+                Código
+              </a>
+              <a href="https://gocolors-hex.vercel.app/" target="_blank" class="visu-work">
+                <i class="ri-link"></i>
+                Ver Projeto
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <img src="./img/gocolors.png" />
+          <div>
+            <div class="row-text">
+              <div class="tecnologia">
+                <p>Tecnologias utilizadas:</p>
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <h4>GOCOLORS - COR RGB</h4>
+              <p class="p-projeto">Copie a cor RGB de sua escolha e cole onde desejar.</p>
+            </div>
+            <div class="button-work">
+              <a href="https://github.com/Caiollopes/gocolors-hex" target="_blank" class="visu-work">
+                <i class="ri-github-line"></i>
+                Código
+              </a>
+              <a href="https://gocolors-hex.vercel.app/" target="_blank" class="visu-work">
+                <i class="ri-link"></i>
+                Ver Projeto
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!--- Footer --->
-    <div class="end-content">
+    <footer class="end-content">
       <div class="social">
         <a href="https://www.instagram.com/caioulo/" target="_blank"><i class="ri-instagram-line"></i></a>
         <a href="https://www.facebook.com/profile.php?id=100010681363271" target="_blank"
@@ -239,7 +335,7 @@
         <p>Desenvolvido por Caio</p>
         <i class="ri-vip-crown-line"></i>
       </div>
-    </div>
+    </footer>
 
     <!--- Js --->
   </body>
