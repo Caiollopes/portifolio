@@ -99,6 +99,11 @@
   }
 }
 
+.studing {
+  /* background-color: var(--main-color); */
+  color: var(--main-color);
+}
+
 .box-f:hover,
 .box-h:hover {
   border: 1px solid var(--main-color);
