@@ -12,13 +12,14 @@
 
 :root {
   --main-color: #6a994e;
+  --main-sec-color: #638f4911;
   --text-color: #fff;
   --bg-color: #111;
   --bg2-color: #22222225;
   --border-color: #ffffff15;
 
   --h1-font: 5rem;
-  --h2-font: 2.5rem;
+  --h2-font: 3rem;
   --p-font: 1.1rem;
 }
 
@@ -54,16 +55,4 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--main-color);
   border-radius: 50px;
-}
-
-.box-f:hover,
-.box-h:hover {
-  border: 1px solid var(--main-color);
-  border-radius: 1rem;
-  transition: ease-in 0.3s;
-
-  & i {
-    color: var(--main-color);
-    transition: ease-in 0.3s;
-  }
 }

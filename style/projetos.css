@@ -32,17 +32,6 @@
   transform: translateY(-12px);
 }
 
-.main-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
-
-.main-row p {
-  color: #555;
-}
-
 .row h5 {
   font-size: 15px;
   font-weight: 500;
@@ -107,11 +96,6 @@
   }
 }
 
-/* .visu-work i {
-  color: var(--main-color);
-  font-size: 1.3rem;
-} */
-
 .visu-work:hover {
   box-shadow: 0 0 10px var(--main-color);
 }
@@ -119,10 +103,9 @@
 .button-work {
   display: flex;
   flex-direction: row;
-  /* align-items: start; */
   justify-content: end;
-  gap: 6px;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .button-work a {
