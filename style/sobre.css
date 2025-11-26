@@ -90,9 +90,10 @@
       gap: 1rem;
 
       & p:nth-child(2) {
-        padding-inline: 10px;
+        padding-inline: 15px;
         border: 1px solid var(--border-color);
         border-radius: 10px;
+        width: auto;
       }
     }
   }
