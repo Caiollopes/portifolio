@@ -1,6 +1,5 @@
 /* Habilidades */
-
-.about-content {
+.skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   align-items: center;
@@ -10,27 +9,40 @@
   padding-inline: 5%;
 }
 
-.box-h {
-  padding: 1rem 0;
+.box-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-block: 1rem;
+
   border: 1px solid var(--border-color);
   border-radius: 1rem;
   transition: ease-in 0.3s;
 
   & i {
     transition: ease-in 0.3s;
+    font-size: 50px;
+  }
+
+  &:hover {
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    transition: ease-in 0.3s;
+
+    & i {
+      color: var(--main-color);
+      transition: ease-in 0.3s;
+    }
   }
 }
 
-.box-h i {
-  font-size: 50px;
+.studing {
+  color: var(--main-color);
 }
 
-.about hr {
-  margin: 20px 0;
-}
-
+/* Habilidade responsivo */
 @media (max-width: 1000px) {
-  .about-content {
+  .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

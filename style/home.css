@@ -1,5 +1,18 @@
-/* Inicio */
+/* Logo */
+.logo {
+  position: absolute;
+  opacity: 5%;
 
+  top: -200px;
+  left: -200px;
+
+  width: 900px;
+  height: 900px;
+
+  z-index: -9999;
+}
+
+/* Inicio */
 .home {
   height: 100vh;
   width: 100%;
@@ -7,28 +20,27 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-}
 
-.home-img img {
-  height: auto;
-  width: 100%;
-}
+  & h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-.home-text h5 {
-  font-size: 20px;
-  font-weight: 500;
-}
+  & h1 {
+    margin: 15px 0;
+    font-size: var(--h1-font);
+    color: var(--main-color);
+    line-height: 1;
+    font-weight: 800;
+  }
 
-.home-text h1 {
-  margin: 15px 0;
-  font-size: var(--h1-font);
-  color: var(--main-color);
-  line-height: 1;
-  font-weight: 800;
+  .home-img img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* Redes sociais */
-
 .social {
   display: flex;
   flex-direction: row;
@@ -88,21 +100,7 @@
   }
 }
 
-/* Logo */
-
-.logo {
-  position: absolute;
-  opacity: 5%;
-
-  top: -200px;
-  left: -200px;
-
-  width: 900px;
-  height: 900px;
-
-  z-index: -9999;
-}
-
+/* Inicio responsivo */
 @media (max-width: 1000px) {
   .logo {
     top: -200px;
@@ -112,7 +110,7 @@
     height: 700px;
   }
 
-  .home-text h1 {
+  .home h1 {
     font-size: 3.5rem;
   }
 

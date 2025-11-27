@@ -1,21 +1,21 @@
 /* Rodape */
 
-.end-content {
+footer {
   padding: 50px 5% 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-}
 
-.dev {
-  display: flex;
-  align-items: center;
-  gap: 2px;
+  & div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 }
 
 @media (max-width: 1000px) {
-  .end-content {
+  footer {
     flex-direction: column;
     gap: 1px;
     margin-bottom: 20px;
