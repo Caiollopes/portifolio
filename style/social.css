@@ -1,0 +1,29 @@
+/* Redes sociais */
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 20px 0px;
+
+  & a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    color: var(--text-color);
+    border-radius: 50%;
+
+    border: 1px solid var(--secondary-color);
+    background: rgba(255, 255, 255, 0.024);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: ease-in;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.031);
+    }
+  }
+}
