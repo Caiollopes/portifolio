@@ -29,7 +29,7 @@
   & h1 {
     margin: 15px 0;
     font-size: var(--h1-font);
-    color: var(--main-color);
+    color: var(--primary-color);
     line-height: 1;
     font-weight: 800;
   }
@@ -37,32 +37,6 @@
   .home-img img {
     height: auto;
     width: 100%;
-  }
-}
-
-/* Redes sociais */
-.social {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 20px 0px;
-
-  & a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    border: 1px solid var(--border-color);
-    color: var(--text-color);
-    border-radius: 50%;
-
-    &:hover {
-      border: 1px solid var(--main-color);
-      transition: all 0.3s;
-    }
   }
 }
 
@@ -74,24 +48,17 @@
 
   & a {
     padding: 10px 22px;
-    border: 1px solid var(--main-color);
-    color: var(--main-color);
-    font-size: 1rem;
-    font-weight: 600;
-    transition: all 0.7s;
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+
+    background: linear-gradient(172deg, var(--primary-color) 0%, var(--primary-dark-color) 100%);
+    background-size: 200%;
+    background-position: right;
+    transition: 0.5s background-position ease-in-out;
 
     &:hover {
-      background-color: var(--main-color);
-      color: var(--bg-color);
-    }
-
-    &:nth-child(2) {
-      background-color: var(--main-color);
-      color: var(--bg-color);
-
-      &:hover {
-        box-shadow: 0 0 10px var(--main-color);
-      }
+      background-position: left;
     }
 
     & i {

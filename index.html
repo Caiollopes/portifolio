@@ -19,8 +19,9 @@
   </head>
 
   <body>
+    <div class="bg-container"></div>
     <!--- Inicio --->
-    <img class="logo" src="./assets/img/lp.svg" alt="" />
+    <!-- <img class="logo" src="./assets/img/lp.svg" alt="" /> -->
     <section class="home" id="home">
       <div>
         <h5>Olá, me chamo Caio</h5>
@@ -74,23 +75,11 @@
           </p>
         </div>
         <div class="about-formation">
-          <div class="box-formation">
-            <div>
-              <i class="ri-space-ship-line"></i>
-            </div>
-            <div>
-              <h3>Rocketseat<i class="ri-verified-badge-fill"></i></h3>
-              <div>
-                <p>FullStack</p>
-                <p>Cursando</p>
-              </div>
-            </div>
-          </div>
-          <div class="box-formation">
-            <div>
+          <div class="box-formation glass">
+            <div class="banner-formation">
               <i class="ri-graduation-cap-line"></i>
             </div>
-            <div>
+            <div class="description-formation">
               <h3>FIAP<i class="ri-verified-badge-fill"></i></h3>
               <div>
                 <p>Sistemas para Internet</p>
@@ -98,11 +87,11 @@
               </div>
             </div>
           </div>
-          <div class="box-formation">
-            <div>
+          <div class="box-formation glass">
+            <div class="banner-formation">
               <i class="ri-graduation-cap-line"></i>
             </div>
-            <div>
+            <div class="description-formation">
               <h3>Unicid<i class="ri-verified-badge-fill"></i></h3>
               <div>
                 <p>Análise e Desenvolvimento de Sistemas</p>
@@ -110,11 +99,11 @@
               </div>
             </div>
           </div>
-          <div class="box-formation">
-            <div>
+          <div class="box-formation glass">
+            <div class="banner-formation">
               <i class="ri-graduation-cap-line"></i>
             </div>
-            <div>
+            <div class="description-formation">
               <h3>Senac<i class="ri-verified-badge-fill"></i></h3>
               <div>
                 <p>Técnico em informatica</p>
@@ -126,51 +115,182 @@
       </div>
     </section>
 
+    <!-- Meus cursos -->
+    <section class="courses" id="courses">
+      <h2>Meus <span class="text-highlight">Cursos</span></h2>
+      <div class="list-courses">
+        <div class="box-course glass">
+          <div class="banner-course"></div>
+          <div class="course">
+            <div class="title-course">
+              <h3>FullStack</h3>
+              <li class="status-course">Em processo</li>
+            </div>
+            <div class="description-course">
+              <p>
+                Aprenda do zero as principais linguagens web, domine desenvolvimento full stack e conheça tudo que
+                precisa pra iniciar sua carreira e conquistar sua primeira vaga em programação.
+              </p>
+              <ul>
+                <li class="language-course">javascript</li>
+                <li class="language-course">github</li>
+                <li class="language-course">typescript</li>
+                <li class="language-course">html</li>
+                <li class="language-course">css</li>
+                <li class="language-course">git</li>
+              </ul>
+            </div>
+            <span class="line"></span>
+            <div>
+              <p class="mb-5">Micro-certificados:</p>
+              <div class="list-micro-certificates">
+                <a href="" class="certificate">
+                  <i class="ri-award-fill"></i>
+                  O básico de Git e GitHub
+                </a>
+                <a href="" class="certificate">
+                  <i class="ri-award-fill"></i>
+                  Fundamentos do HTML e CSS
+                </a>
+                <a href="" class="certificate">
+                  <i class="ri-award-fill"></i>
+                  JavaScript
+                </a>
+                <a href="" class="certificate-disable">
+                  <i class="ri-award-fill"></i>
+                  Introdução ao Node.js
+                </a>
+                <a href="" class="certificate-disable">
+                  <i class="ri-award-fill"></i>
+                  Introdução ao React
+                </a>
+              </div>
+              <p class="mb-5">Certificados:</p>
+              <div class="list-certificates">
+                <a href="" class="certificate-disable">
+                  <i class="ri-award-fill"></i>
+                  Certificado em FullStack
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-course glass">
+          <div class="banner-course"></div>
+          <div class="course">
+            <div class="title-course">
+              <h3>React</h3>
+              <li class="status-course">Em processo</li>
+            </div>
+            <div class="description-course">
+              <p>Desenvolva interfaces modernas e reativas na web utilizando uma biblioteca modular e escalável.</p>
+              <ul>
+                <li class="language-course">react</li>
+                <li class="language-course">javascript</li>
+              </ul>
+            </div>
+            <span class="line"></span>
+            <div>
+              <p class="mb-5">Micro-certificados:</p>
+              <div class="list-micro-certificates">
+                <a
+                  href="https://app.rocketseat.com.br/certificates/fb6ad357-b9dd-421e-8239-530fbd549f79"
+                  class="certificate"
+                >
+                  <i class="ri-award-fill"></i>
+                  Fundamentos do React
+                </a>
+              </div>
+              <p class="mb-5">Certificados:</p>
+              <div class="list-certificates">
+                <a href="" class="certificate-disable">
+                  <i class="ri-award-fill"></i>
+                  Certificado em React
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-course glass">
+          <div class="banner-other"></div>
+          <div class="course">
+            <div class="title-course">
+              <h3>Carreira IA</h3>
+              <li class="status-course">Concluído</li>
+            </div>
+            <div class="description-course">
+              <p>
+                Neste evento ao vivo criamos um agente do zero, utilizando n8n e IA(Gemini). <br />
+                Se trata de um fluxo que busca noticias, onde IA resume e nos envia por chat do Discord
+              </p>
+              <ul>
+                <li class="language-course">n8n</li>
+                <li class="language-course">IA Gemini</li>
+              </ul>
+            </div>
+            <span class="line"></span>
+            <div>
+              <p class="mb-5">Certificados:</p>
+              <div class="list-certificates">
+                <a
+                  href="https://app.rocketseat.com.br/certificates/4144afe1-6999-451a-9c5b-5da2146e7ca4"
+                  class="certificate"
+                >
+                  <i class="ri-award-fill"></i>
+                  Certificado do evento
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--- Minhas habilidades --->
     <section class="skills" id="skills">
       <h2>Minhas <span class="text-highlight">Habilidades</span></h2>
       <div class="skills-grid">
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-html5-plain"></i>
           <p>HTML</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-css3-plain"></i>
           <p>CSS</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-javascript-plain"></i>
           <p>JavaScript</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-java-plain"></i>
           <p>Java</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-csharp-plain"></i>
           <p>C#</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-mysql-plain"></i>
           <p>MySQL</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-flutter-plain"></i>
           <p>Flutter</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-figma-plain"></i>
           <p>Figma</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-photoshop-plain"></i>
           <p>Photoshop</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-illustrator-plain"></i>
           <p>Illustrator</p>
         </div>
-        <div class="box-skills">
+        <div class="box-skills glass">
           <i class="devicon-bootstrap-plain"></i>
           <p>Bootstrap</p>
         </div>
@@ -197,7 +317,7 @@
     <section class="projects" id="projects">
       <h2>Meus <span class="text-highlight">Projetos</span></h2>
       <div class="projects-grid">
-        <div class="projects-card">
+        <div class="projects-card glass">
           <img src="./assets/img/quicklist.jpg" />
           <div>
             <div class="projects-language">
@@ -222,7 +342,7 @@
             </div>
           </div>
         </div>
-        <div class="projects-card">
+        <div class="projects-card glass">
           <img src="./assets/img/convert.jpg" />
           <div>
             <div class="projects-language">
@@ -247,7 +367,7 @@
             </div>
           </div>
         </div>
-        <div class="projects-card">
+        <div class="projects-card glass">
           <img src="./assets/img/thresh.jpg" />
           <div>
             <div class="projects-language">
@@ -272,7 +392,7 @@
             </div>
           </div>
         </div>
-        <div class="projects-card">
+        <div class="projects-card glass">
           <img src="./assets/img/snitap.jpg" />
           <div>
             <div class="projects-language">
