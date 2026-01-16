@@ -1,7 +1,10 @@
 @import url(home.css);
 @import url(about-me.css);
+@import url(courses.css);
 @import url(skills.css);
 @import url(projects.css);
+@import url(social.css);
+@import url(background.css);
 
 @import url(global.css);
 @import url(footer.css);
