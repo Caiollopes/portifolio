@@ -11,12 +11,26 @@
 /* Variaveis */
 
 :root {
-  --main-color: #6a994e;
-  --main-sec-color: #638f4911;
+  --primary-color: #1041bc;
+  --primary-dark-color: #1353e72e;
+
+  --secondary-color: #404040;
+  --secondary-dark-color: #4040404e;
+
   --text-color: #fff;
+  --text-secondary-color: #aeaeae;
+
   --bg-color: #111;
-  --bg2-color: #22222225;
+  --bg-secondary-color: #22222225;
+  --bg-radial-color: #1353e72e;
+
   --border-color: #ffffff15;
+  --border-hover-color: #c4c4c428;
+
+  --disable-color: #111;
+
+  --gradient: linear-gradient(172deg, var(--primary-color) 0%, var(--primary-dark-color) 100%);
+  --gradient-other: linear-gradient(172deg, var(--secondary-color) 0%, var(--secondary-dark-color) 100%);
 
   --h1-font: 5rem;
   --h2-font: 3rem;
@@ -40,6 +54,18 @@ body {
   /* padding-inline: 5%; */
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+.line {
+  margin: 15px 0;
+  width: 100%;
+  height: 0.1px;
+  background-color: var(--border-color);
+}
+
+/* Unicas */
+.mb-5 {
+  margin-bottom: 5px;
 }
 
 /* Scroll */
