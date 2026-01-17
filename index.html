@@ -131,7 +131,7 @@
                 Aprenda do zero as principais linguagens web, domine desenvolvimento full stack e conheça tudo que
                 precisa pra iniciar sua carreira e conquistar sua primeira vaga em programação.
               </p>
-              <ul>
+              <ul class="list-language">
                 <li class="language-course">javascript</li>
                 <li class="language-course">github</li>
                 <li class="language-course">typescript</li>
@@ -184,7 +184,7 @@
             </div>
             <div class="description-course">
               <p>Desenvolva interfaces modernas e reativas na web utilizando uma biblioteca modular e escalável.</p>
-              <ul>
+              <ul class="list-language">
                 <li class="language-course">react</li>
                 <li class="language-course">javascript</li>
               </ul>
@@ -223,7 +223,7 @@
                 Neste evento ao vivo criamos um agente do zero, utilizando n8n e IA(Gemini). <br />
                 Se trata de um fluxo que busca noticias, onde IA resume e nos envia por chat do Discord
               </p>
-              <ul>
+              <ul class="list-language">
                 <li class="language-course">n8n</li>
                 <li class="language-course">IA Gemini</li>
               </ul>
@@ -316,101 +316,116 @@
     <!--- Projetos --->
     <section class="projects" id="projects">
       <h2>Meus <span class="text-highlight">Projetos</span></h2>
+      <ul class="list-language filter-list">
+        <li class="language-course btn-filter active" data-filter="todos">todos</li>
+        <li class="language-course btn-filter" data-filter="html">html</li>
+        <li class="language-course btn-filter" data-filter="css">css</li>
+        <li class="language-course btn-filter" data-filter="javascript">javascript</li>
+        <li class="language-course btn-filter" data-filter="typescript">typescript</li>
+        <li class="language-course btn-filter" data-filter="react">react</li>
+      </ul>
       <div class="projects-grid">
-        <div class="projects-card glass">
-          <img src="./assets/img/quicklist.jpg" />
+        <div class="projects-card glass" data-category="html css javascript">
+          <div class="banner-project">
+            <img src="./assets/img/quicklist.svg" alt="" />
+          </div>
           <div>
-            <div class="projects-language">
-              <p>Tecnologias utilizadas:</p>
-              <i class="ri-html5-fill"></i>
-              <i class="ri-css3-fill"></i>
-              <i class="devicon-javascript-plain"></i>
-            </div>
             <div class="projects-description">
-              <h4>Quicklist</h4>
+              <h3>Quicklist</h3>
               <p>Lista de compras. Crie, selecione e exclua quando quiser.</p>
+              <ul class="list-language">
+                <li class="language-course">html</li>
+                <li class="language-course">css</li>
+                <li class="language-course">javascript</li>
+                <span class="line"></span>
+              </ul>
             </div>
-            <div class="projects-button">
-              <a href="https://github.com/Caiollopes/quicklist-rks" target="_blank" class="visu-work">
+            <div class="projects-flex">
+              <a
+                class="projects-buttons"
+                href="https://github.com/Caiollopes/quicklist-rks"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-github-line"></i>
                 Código
               </a>
-              <a href="https://caiollopes.github.io/quicklist-rks/" target="_blank" class="visu-work">
+              <a
+                class="projects-buttons"
+                href="https://caiollopes.github.io/quicklist-rks/"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-link"></i>
                 Ver Projeto
               </a>
             </div>
           </div>
         </div>
-        <div class="projects-card glass">
-          <img src="./assets/img/convert.jpg" />
+        <div class="projects-card glass" data-category="css">
+          <div class="banner-project">
+            <img src="./assets/img/quicklist.svg" alt="" />
+          </div>
           <div>
-            <div class="projects-language">
-              <p>Tecnologias utilizadas:</p>
-              <i class="ri-html5-fill"></i>
-              <i class="ri-css3-fill"></i>
-              <i class="devicon-javascript-plain"></i>
-            </div>
             <div class="projects-description">
-              <h4>Convert</h4>
-              <p>Conversor de moeda, de real para dolar, euro e libra.</p>
+              <h3>Quicklist</h3>
+              <p>Lista de compras. Crie, selecione e exclua quando quiser.</p>
+              <ul class="list-language">
+                <li class="language-course">css</li>
+                <span class="line"></span>
+              </ul>
             </div>
-            <div class="projects-button">
-              <a href="https://github.com/Caiollopes/convert-rks" target="_blank" class="visu-work">
+            <div class="projects-flex">
+              <a
+                class="projects-buttons"
+                href="https://github.com/Caiollopes/quicklist-rks"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-github-line"></i>
                 Código
               </a>
-              <a href="https://caiollopes.github.io/convert-rks/" target="_blank" class="visu-work">
+              <a
+                class="projects-buttons"
+                href="https://caiollopes.github.io/quicklist-rks/"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-link"></i>
                 Ver Projeto
               </a>
             </div>
           </div>
         </div>
-        <div class="projects-card glass">
-          <img src="./assets/img/thresh.jpg" />
-          <div>
-            <div class="projects-language">
-              <p>Tecnologias utilizadas:</p>
-              <i class="ri-html5-fill"></i>
-              <i class="ri-css3-fill"></i>
-              <i class="devicon-javascript-plain"></i>
-            </div>
-            <div class="projects-description">
-              <h4>Select Skin - Thresh</h4>
-              <p>Selecão de skin do thresh (League of legends) com descrição de cada</p>
-            </div>
-            <div class="projects-button">
-              <a href="https://github.com/Caiollopes/thresh-lol" target="_blank" class="visu-work">
-                <i class="ri-github-line"></i>
-                Código
-              </a>
-              <a href="https://nav-tabs-lol.vercel.app/" target="_blank" class="visu-work">
-                <i class="ri-link"></i>
-                Ver Projeto
-              </a>
-            </div>
+        <div class="projects-card glass" data-category="javascript">
+          <div class="banner-project">
+            <img src="./assets/img/quicklist.svg" alt="" />
           </div>
-        </div>
-        <div class="projects-card glass">
-          <img src="./assets/img/snitap.jpg" />
           <div>
-            <div class="projects-language">
-              <p>Tecnologias utilizadas:</p>
-              <i class="ri-html5-fill"></i>
-              <i class="ri-css3-fill"></i>
-              <i class="devicon-javascript-plain"></i>
-            </div>
             <div class="projects-description">
-              <h4>Snitep - Patins</h4>
-              <p>Landing page de patins.</p>
+              <h3>Quicklist</h3>
+              <p>Lista de compras. Crie, selecione e exclua quando quiser.</p>
+              <ul class="list-language">
+                <li class="language-course">javascript</li>
+                <span class="line"></span>
+              </ul>
             </div>
-            <div class="projects-button">
-              <a href="https://github.com/Caiollopes/snitap-rks/tree/main#" target="_blank" class="visu-work">
+            <div class="projects-flex">
+              <a
+                class="projects-buttons"
+                href="https://github.com/Caiollopes/quicklist-rks"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-github-line"></i>
                 Código
               </a>
-              <a href="https://caiollopes.github.io/snitap-rks/" target="_blank" class="visu-work">
+              <a
+                class="projects-buttons"
+                href="https://caiollopes.github.io/quicklist-rks/"
+                target="_blank"
+                class="visu-work"
+              >
                 <i class="ri-link"></i>
                 Ver Projeto
               </a>
@@ -419,7 +434,6 @@
         </div>
       </div>
     </section>
-
     <!--- Footer --->
     <footer>
       <div class="social">
@@ -436,5 +450,7 @@
         <i class="ri-vip-crown-line text-highlight"></i>
       </div>
     </footer>
+    <!--- Javascript --->
+    <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
