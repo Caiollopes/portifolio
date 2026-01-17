@@ -1,12 +1,17 @@
 /* Habilidades */
+.skills {
+  padding-inline: 5%;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
   align-items: center;
   text-align: center;
   gap: 2rem;
-  margin-top: 4rem;
-  padding-inline: 5%;
 }
 
 .box-skills {
