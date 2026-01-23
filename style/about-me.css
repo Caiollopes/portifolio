@@ -1,5 +1,4 @@
 /* Sobre mim */
-
 .about-me {
   padding: 5%;
 }
@@ -61,14 +60,21 @@
   min-height: 100px;
   min-width: 100px;
 
-  background: var(--gradient-other);
+  background: var(--bg-color);
   border-radius: 16px;
 }
 
 .description-formation {
+  & h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
   & i {
     margin-left: 5px;
-    color: var(--primary-color);
+    font-size: 1rem;
+    color: var(--secondary-color);
   }
 
   & div {

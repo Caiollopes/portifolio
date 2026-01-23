@@ -14,8 +14,8 @@
   --primary-color: #1041bc;
   --primary-dark-color: #1353e72e;
 
-  --secondary-color: #404040;
-  --secondary-dark-color: #4040404e;
+  --secondary-color: #e76f0c;
+  --secondary-dark-color: #833908;
 
   --text-color: #fff;
   --text-secondary-color: #aeaeae;
@@ -30,7 +30,7 @@
   --disable-color: #111;
 
   --gradient: linear-gradient(172deg, var(--primary-color) 0%, var(--primary-dark-color) 100%);
-  --gradient-other: linear-gradient(172deg, var(--secondary-color) 0%, var(--secondary-dark-color) 100%);
+  --gradient-secondary: linear-gradient(172deg, var(--secondary-color) 0%, var(--secondary-dark-color) 100%);
 
   --h1-font: 5rem;
   --h2-font: 3rem;
