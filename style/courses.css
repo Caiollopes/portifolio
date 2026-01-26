@@ -34,9 +34,17 @@
 
 /* Banner, Descrição e Linguagens do Curso */
 .banner-course {
-  background: var(--gradient);
+  background: var(--bg-color);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+
+  & .rocketseat {
+    width: 150px;
+  }
 }
 
 .banner-other {
@@ -55,6 +63,23 @@
     font-size: 2rem;
     font-weight: 300;
   }
+
+  & i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-course {
+  animation: spin 5s linear infinite;
 }
 
 .description-course {
@@ -75,7 +100,7 @@
   color: var(--text-secondary-color);
   border-radius: 10px;
   width: auto;
-  /* font-size: 1rem; */
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
