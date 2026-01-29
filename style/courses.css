@@ -3,19 +3,17 @@
 }
 
 .list-courses {
-  column-count: 3;
-  column-gap: 1.5rem;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
   max-width: 1280px;
-  margin: 0 auto;
+  margin-inline: auto;
+  align-items: start;
 }
 
 .box-course {
-  break-inside: avoid;
-  display: inline-block;
-  width: 100%;
-
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 
   display: flex;
   flex-direction: column;
@@ -69,6 +67,7 @@
     font-size: 1.2rem;
   }
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -151,6 +150,7 @@
 
 @media (max-width: 1200px) {
   .list-courses {
-    column-count: 1;
+    grid-template-columns: 1fr;
+    /* gap: 1.5rem; */
   }
 }
